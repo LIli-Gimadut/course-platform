@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 100px);
+  background: linear-gradient(to top left, powderblue, pink);
+}
+
+.menu {
+  border-right: thick double #ce32b4;
+  min-width: 100px;
+  grid-column: 1/2 ;
+  grid-row: 1/9;
+  
+}
+
+.top {
+  border-bottom: 2px solid #ce32b4;
+  font-family: Fantasy;
+  font-size: 20px;
+  text-align:center
+}
+
+.ul_1 {
+  font-family: Fantasy;
+  font-size: 10px;
+  padding-left: 15px;
+}
+
+.main {
+  grid-column: 2/9 ;
+  grid-row: 1/9;
+}
