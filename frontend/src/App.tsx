@@ -1,11 +1,11 @@
 import './App.css';
+import Preview from './Preview/Preview'
 
 function App() {
-  const a=5
   return (
-    <div className="App">
-      {a}
-    </div>
+    <>
+    <Preview />
+    </>
   );
 }
 
